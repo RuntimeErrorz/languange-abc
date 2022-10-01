@@ -1,0 +1,107 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: serif;
+  }
+  
+  h1
+  {
+      font-family: sans-serif;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  h2
+  {
+     font-family: sans-serif;
+     font-size: 15px;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+  
+  ol {
+    list-style-type: lower-latin;
+  }
+
+nav li
+{
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+  nav li a
+  {
+     text-decoration: none;
+     display: inline-block;
+     width: 100%;
+     line-height: 2;
+     text-align: center;
+     border: 1px solid lightcoral;
+  }
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+    text-indent: 20px;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  p, li
+  {
+      line-height: 1.5;
+  }
+
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  a:link
+  {
+      color :red;
+  }
+
+  a:visited
+  {
+      color: blue;
+  }
+
+
+  a:hover
+  {
+      text-decoration: none;
+  }
+  /* WRITE YOUR CODE BELOW HERE */

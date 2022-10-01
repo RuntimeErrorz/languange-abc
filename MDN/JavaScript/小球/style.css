@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
